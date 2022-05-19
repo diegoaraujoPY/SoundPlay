@@ -1,0 +1,315 @@
+﻿@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@font-face{
+	font-family: "Xilosa";
+	src: url("../_fontes/xilosa_.ttf");
+}
+@font-face{
+	font-family: "Cordel";
+	src: url("../_fontes/CordelEncarnado.otf");
+}
+
+body {
+	background: url(../_interface/fundoprincipal.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #074506;
+	}
+::-webkit-scrollbar {
+	width: 15px;
+}
+::-webkit-scrollbar-thumb {
+	background: #ab8024;
+}
+
+.introducao {
+	margin: 10px;
+	background: url(../_interface/barra.jpg) no-repeat;
+	background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 4px;
+}
+
+.opcoes {
+	background: #074506;
+	border-radius: 4px;
+}
+
+.navbar ul li a {
+	color: #ffffff !important;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Xilosa', san-serif;
+}
+
+.navbar ul li a:hover{
+	color: #e6af39 !important;
+	transition: color .5s;
+}
+
+.categoria ul li ul li{
+	background-color: #074506;
+	padding: 4px;
+}
+
+.categoria ul li ul li:hover{
+	background-color: #074506;
+}
+
+.categoria ul ul{
+	display: none;
+}
+
+.categoria ul li:hover > ul {
+	display: block;
+	background-color: #e6af39;
+}
+
+.categoria ul li ul li a:hover{
+	background-color: #e6af39;
+	color: #fff;
+	transition: background-color .4s;
+}
+
+.redesociais ul li i:hover{
+	filter:drop-shadow(0 0 10px #e6af39);
+}
+
+.barra {
+	padding: 20px;
+	margin: 50px;
+	background-color: rgba(7,69,6,.4);
+	-webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 10px black;
+}
+
+div.destaque {
+	background-color: rgba(138,119,58,0.7);
+	box-shadow: 0px 0px 10px black;
+}
+
+div.destaque:hover {
+	background-color: rgba(138,119,58,1);
+	transition: background-color 1s;
+}
+
+div.destaque h4 {
+	font-family: Xilosa;
+	font-size: 20pt;
+	text-decoration: none;
+	text-decoration-color: transparent;
+	color: rgba(0,0,0,.8);
+}
+
+div.destaque:hover h4 {
+	text-decoration: underline;
+	color: #000;
+	text-decoration-color: #000;
+	transition: text-decoration-color 1.2s;
+}
+
+div.destaque p {
+	font-family: 'Acme';
+	color: #fff;
+}
+
+div.postagem p {
+	font-family: 'Acme';
+	color: #fff;
+	text-decoration: none;
+	font-size: 9pt;
+	text-shadow: 0px 0px 10px black;
+}
+
+div.postagem h5 {
+	font-family: Xilosa;
+	font-size: 17pt;
+	text-decoration: none;
+	text-decoration-color: transparent;
+	color: rgba(0,0,0,.8);
+}
+
+div.postagem h5:hover {
+	text-decoration: underline;
+	color: #000;
+	text-decoration-color: #000;
+	transition: text-decoration-color 1.2s;
+}
+
+div.postagem {
+	background-color: rgba(191,227,93,.7);
+	box-shadow: 0px 0px 10px black;
+}
+
+div.postagem:hover {
+	background-color: rgba(191,227,93,1);
+	transition: background-color 1s;
+}
+
+div.postagem h4 {
+	font-family: Xilosa;
+	font-size: 20pt;
+	color: #fff;
+	text-shadow: #000 1px 0 10px;
+}
+
+div.postagemlancamento {
+	padding: 10px;
+	background-color: rgba(149,225,252,.4);
+	box-shadow: 0px 0px 10px black;
+}
+
+div.postagemlancamento a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Xilosa;
+	padding: 10px;
+	font-size: 20pt;
+	text-shadow: 1px 1px 7px black;
+}
+
+div.postagemlancamento a:hover {
+	text-decoration: underline;
+	color: #e6af39;
+	transition: color .5s;
+}
+
+section#principal h1.titulo {
+	font-family: Xilosa;
+	color: #fff;
+	text-shadow: 1px 1px 7px black;
+	font-size: 50px;
+}
+
+div.postagemlancamento:hover {
+	background-color: rgba(149,225,252,.8);
+	transition: background-color 1s;
+}
+
+img.thumb {
+	box-shadow: 0px 0px 10px black;
+}
+
+img.thumb:hover {
+	padding: 10px;
+	transition: padding .4s;
+}
+
+.direita {
+	float: right;
+	margin-left: 10px;
+}
+
+section hgroup#subtitulo{
+	clear: both;
+	background-color: rgba(255,255,255,.8);
+}
+
+section hgroup#subtitulo h1{
+	text-align: center;
+	font-family: 'Xilosa';
+	font-size: 30pt;
+	margin-bottom: 0px;
+}
+
+section hgroup#subtitulo h2{
+	font-family: 'Acme';
+	font-size: 15pt;
+	text-align: right;
+	margin: 0px 30px 0px 0px;
+	color: white;
+	text-shadow: 0px 1px 4px black;
+}
+
+aside div.lateral{
+	background-color: rgba(255,255,255,.8);
+	display: block;
+	box-shadow: 1px 1px 1px black;
+}
+
+aside div.lateral h1{
+	font-family: 'Xilosa', sans-serif;
+	font-size: 20pt;
+	text-align: center;
+	color: #ab8024;
+	text-shadow: 2px 1px 1px black;
+}
+
+aside div.lateral img{
+	margin-left: -12px;
+}
+
+aside div.lateral article#musicasugerida {
+	display: block;
+	background-color: rgba(7,69,6,.6);
+}
+
+aside.lateral article#musicasugerida:hover {
+	background-color: rgb(7,69,6);
+	transition: background-color 1s;
+}
+
+div.musica {
+	background-color: rgba(7,69,6,.6);
+	padding: 10px;
+}
+
+div.musica:hover {
+	background-color: rgba(7,69,6,1);
+	transition: background-color 1s;
+}
+
+div.nome{
+	color: #fff;
+	font-family: 'Acme';
+	text-align: left;
+	font-size: 20pt;
+	text-shadow: 0px 0px 4px black;
+}
+
+div.musica h5{
+	font-family: 'Acme', sans-serif;
+	font-size: 15pt;
+	color: white;
+	text-shadow: 2px 1px 1px black;
+	text-align: right;
+}
+
+aside#lateral article#musicasugerida h2{
+	font-family: 'Acme', sans-serif;
+	font-size: 15pt;
+	color: white;
+	text-shadow: 2px 1px 1px black;
+	text-align: right;
+	margin: -5px 70px 5px 0px;
+}
+
+aside#lateral article#musicasugerida iframe{
+	margin: 0px 0px 10px 20px;
+}
+
+footer#creditos{
+	clear: both;
+	border-top: 1px solid white;
+}
+
+footer#creditos p{
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	margin-top: 8px;
+}
+
+audio#musica{
+	position: absolute;
+	margin: -50px 0px 0px 990px;
+	width: 200px;
+	height: 30px;
+}

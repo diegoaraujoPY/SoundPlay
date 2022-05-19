@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+h1.titulo {
+	font-family: Xilosa;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	text-shadow: 1px 1px 7px black;
+	font-size: 50px;
+}
+
+span {
+	font-family: 'Acme';
+	color: #fff;
+	padding: 20px;
+	text-shadow: 1px 1px 7px black;
+	font-size: 14pt;
+}
+
+div.playlistclassica {
+	background-color: rgba(219,177,24,.4);
+	box-shadow: 0px 0px 10px black;
+	margin: 20px;
+}
+
+div.playlistclassica hgroup {
+	background-color: rgba(255,255,255,.8);
+	box-shadow: 0px 0px 5px black;
+	margin: 20px;
+}
+
+div.playlistclassica hgroup h1{
+	font-family: 'Xilosa';
+	text-align: center;
+	font-size: 30pt;
+	color: #074506;
+}
+
+div.playlistclassica hgroup h2{
+	font-family: 'Xilosa';
+	margin-top: -20px; 
+	font-size: 14pt;
+	text-align: center;
+	color: #ab8024;
+}
+
+div.playlistclassica iframe{
+	box-shadow: 0px 0px 10px black;
+	padding: 0px;
+}
+
+div.topicoshistoria {
+	
+}
+
+.caixa {
+	font-family: 'Xilosa';
+	font-size: 30pt;
+	text-align: center;
+	color: #074506;
+	background-color: rgba(255,255,255,.8);
+	box-shadow: 1px 1px 5px black;
+}
+
+div.playlist {
+	background-color: rgba(191,227,93,.7);
+	box-shadow: 0px 0px 10px black;
+	margin: 20px;
+	padding: 10px;
+}
+
+div.playlist a{
+	clear: both;
+	display: block;
+	font-family: 'Acme';
+	font-size: 15pt;
+	text-align: right;
+	color: white;
+	text-decoration: none;
+}
+
+div.playlist a:hover{
+	font-family: 'Acme';
+	font-size: 20pt;
+	transition: font-size .5s;
+	text-decoration: underline;
+	color: #074506;
+}

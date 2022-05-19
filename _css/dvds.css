@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+h1.titulo {
+	font-family: Xilosa;
+	color: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 7px black;
+	font-size: 50px;
+}
+
+section.reprodutor {
+	width: 700px;
+}
+
+div.tituloDVD {
+	font-family: 'Xilosa', san-serif;
+	text-align: center;
+	font-size: 25pt;
+	color: #ab8024;
+	text-shadow: 1px 1px 1px black;
+	padding: 10px;
+}
+
+div.tituloDVD h1{
+	clear: both;
+	display: block;
+	background-color: rgba(255,255,255,.5);
+	box-shadow: 0px 0px 10px black;
+}
+
+section.reprodutor iframe {
+	box-shadow: 0px 0px 10px black;
+	padding: 0px;
+}
+
+.dvdplaylist aside {
+	min-width: 300px;
+}
+
+.dvdplaylist aside {
+	width: 500px;
+	height: 380px;
+	overflow-y: auto;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #074506;
+	}
+::-webkit-scrollbar {
+	width: 15px;
+	}
+::-webkit-scrollbar-thumb {
+	background: #ab8024;
+}
+
+.dvdplaylist aside h1{
+	color: rgba(255, 255, 255, .9);
+	background-color: rgba(255,255,255,.0);
+	box-shadow: 0px 0px 0px black;
+	margin: 0px 0px 20px 0px;
+}
+
+.dvdplaylist aside a {
+	text-decoration: none;
+}
+
+.dvdplaylist aside p{
+	font-family: 'Acme';
+	color: rgba(255, 255, 255, .9);
+	text-align: left;
+	font-size: 18pt;
+	margin: -8px 0px 0px 0px;
+	background-color: rgba(255,255,255,.0);
+	box-shadow: 0px 0px 0px black;
+}
+
+.dvdplaylist aside p:hover{
+	color: #ab8024;
+}
+
+.page-item {
+	box-shadow: 0px 0px 10px black;
+}
+
+a.proximo {
+	border: 1px solid #ab8024;
+	background: #074506;
+	color: #ab8024;
+	font-family: Xilosa;
+}
+
+a.selecionado {
+	border: 1px solid #ab8024;
+	background: #ab8024 !important;
+	color: #074506;
+	font-family: Xilosa;
+}
+
+a.disabled {
+	border: 1px solid #ab8024;
+	background: #074506;
+	color: #ab8024;
+	font-family: Xilosa;
+}
